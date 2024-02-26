@@ -5,11 +5,11 @@ export default {
 		extend: {
 			keyframes: {
 				'drill-right': {
-					'100% , 0%': { transform: 'translateX(1800px)'},
+					'100% , 0%': { transform: 'translateX(1600px)'},
 					'100%': {transform: 'translateX(0)'}
 				},
 				'drill-left': {
-					'0% , 100%': { transform: 'translateX(-2800px)'},
+					'0% , 100%': { transform: 'translateX(-2000px)'},
 					'100%': {transform: 'translateX(0)'}
 				}
 			}
@@ -21,8 +21,9 @@ export default {
 			widest: '1.1em'
 		  },
 		animation: {
-			'drill-right': 'drill-right 1.5s ease-in-out',
-			'drill-left': 'drill-left 2.7s ease-in-out'
+			'drill-right': 'drill-right 1.2s ease-in-out',
+			'drill-left': 'drill-left 2.4s ease-in-out',
+			'bounce': 'bounce 1.2s infinite'
 		}
 	},
 	plugins: [],
