@@ -3,11 +3,12 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Drills from '../components/Drills.astro';
 import Navbar from '../components/Navbar.astro';
+import InitialContent from '../components/InitialContent.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<svg
+		<!-- <svg
 			class="astro-a"
 			width="495"
 			height="623"
@@ -34,12 +35,11 @@ import Navbar from '../components/Navbar.astro';
 					<stop offset="1" stop-opacity="0.2"></stop>
 				</linearGradient>
 			</defs>
-		</svg>
+		</svg>-->
 		<Navbar/>
 		<Drills/>
-		<svg height="100" width="200">
-			<text x="8" y="30" fill="black" font-size="42" font-family="Brush Script MT">Drills</text>
-		</svg>
+		<InitialContent/>
+		<!--
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
@@ -66,6 +66,7 @@ import Navbar from '../components/Navbar.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		 -->
 	</main>
 </Layout>
 
