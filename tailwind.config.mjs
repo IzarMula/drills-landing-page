@@ -9,7 +9,7 @@ export default {
 					'100%': {transform: 'translateX(0)'}
 				},
 				'drill-left': {
-					'0% , 100%': { transform: 'translateX(-1800px)'},
+					'0% , 100%': { transform: 'translateX(-2800px)'},
 					'100%': {transform: 'translateX(0)'}
 				}
 			}
@@ -22,7 +22,7 @@ export default {
 		  },
 		animation: {
 			'drill-right': 'drill-right 1.5s ease-in-out',
-			'drill-left': 'drill-left 3.5s ease-in-out'
+			'drill-left': 'drill-left 2.7s ease-in-out'
 		}
 	},
 	plugins: [],
